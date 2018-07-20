@@ -1,4 +1,4 @@
-# Sparse-Matrices
+# Polaron Code
 Create Sparse Matrix using Slepc and Petsc
 
 
