@@ -35,7 +35,3 @@ Absorption in Poly(3-Hexylthiophene). J. Chem. Phys. 2014, 140, 244902
 2. Ghosh, R.; Pochas, C. M.; Spano, F. C. Polaron Delocalization in Conjugated Polymer Films. J. Phys. Chem. C 2016, 120, 11394−
 11406.
 
-
-    
-    
-
