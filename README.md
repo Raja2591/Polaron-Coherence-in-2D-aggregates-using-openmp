@@ -11,6 +11,8 @@ We develop a theory describing the spatial coherence of polarons (holes) in diso
 Modelling Disorder in Polymer Aggregates
 ----------------------------------------
 
+![](disorder.JPG)
+
 Energetic disorder in polymer films arises from variations in nearest neighbor packing distances, changes in intramolecular torsional angles and the presence of spatially fluctuating electric fields. We introduce various kinds of diagonal and offdiagonal disorder. Please look into the references mentioned below to have a better understanding of the different types of disorder models that have been implemented in the code. 
 
 
