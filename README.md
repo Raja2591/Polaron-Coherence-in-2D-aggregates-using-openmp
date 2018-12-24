@@ -19,7 +19,11 @@ Energetic disorder in polymer films arises from variations in nearest neighbor p
 Polaron Absorption and Coherence 
 ----------------------------------------
 
+![](cms.JPG)
+
 We focus our attention entirely on the far to mid-IR transitions between the polaron ground state, lowest eigenfunction of the Hamiltonian and all the excited polaron states. We have developed a simple relationship between the oscillator strength of the mid-IR absorption band and the polaron coherence function. To put it simply, given an absorption spectrum, we can extract the polaron delocalization lengths both along the polymer backbone and in between chains. The subroutine to calculate the polaron absorption and coherence has been included in this repository. Please have a look and let me know if you have any questions.
+
+
 
 MPI  
 ----
