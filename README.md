@@ -37,7 +37,7 @@ The polaron absorption spectrum needs to be averaged over several thousand confi
 References
 ----------
 
-Please go through the following references for detailed understanding of the model. Let me know if you any questions regarding the model. Please send an email to raja.ghosh@temple.edu. If you use this program please cite the following papers.
+Please go through the following references for detailed understanding of the model. Let me know if you any questions regarding the model. Please send an email to raja.ghosh@temple.edu. If you use this program please cite the following papers. This program is distributed under the MIT liscense.
 
 1. Ghosh, R.; Pochas, C. M.; Spano, F. C. Polaron Delocalization in Conjugated Polymer Films. J. Phys. Chem. C 2016, 120, 11394−11406.
 
