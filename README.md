@@ -3,6 +3,7 @@
           |  Polaron Coherence in Conjugated Polymer Films  |
           
                             Author: Raja Ghosh
+                            contact: raja.ghosh@temple.edu
           ---------------------------------------------------
 
 What is it?
