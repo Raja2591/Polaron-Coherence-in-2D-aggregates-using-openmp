@@ -13,6 +13,10 @@ We develop a theory describing the spatial coherence of polarons (holes) in diso
 
 Modeling Molecular Aggregates
 ----------------------------------------
+
+Each thiophene unit is identified by the coordinate (m,n) indicating the mth unit on the nth chain. A hole on a given thiophene unit is
+taken to be a missing electron in its local HOMO. The neighboring HOMOs for adjacent units along the polymer backbone are coupled through the hole transfer integral, tintra. In a π-stack of such chains, there is also wave function overlap between the HOMOs on neighboring units on adjacent chains. The associated electronic coupling is represented by the interchain hole transfer integral, tinter. Hence, electronic coupling induces two-dimensional delocalization of the hole
+
 ![](stack.png)
 
 
