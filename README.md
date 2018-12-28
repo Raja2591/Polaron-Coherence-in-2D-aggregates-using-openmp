@@ -11,6 +11,11 @@ What is it?
 
 We develop a theory describing the spatial coherence of polarons (holes) in disordered conjugated polymer films. The program calculates the Charge Modulation Spectrum in the near IR and the mid-IR region for a 2 Dimensional molecular aggregate by solving the Holstein Hamiltonian employing a multiparticle basis set. 
 
+Modeling Molecular Aggregates
+----------------------------------------
+
+
+
 Modeling Disorder in Polymer Aggregates
 ----------------------------------------
 
