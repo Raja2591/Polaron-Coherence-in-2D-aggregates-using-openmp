@@ -13,7 +13,7 @@ We develop a theory describing the spatial coherence of polarons (holes) in diso
 
 Modeling Molecular Aggregates
 ----------------------------------------
-
+![](stack.png)
 
 
 Modeling Disorder in Polymer Aggregates
