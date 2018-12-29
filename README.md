@@ -11,6 +11,11 @@ What is it?
 
 We develop a theory describing the spatial coherence of polarons (holes) in disordered conjugated polymer films. The program calculates the Charge Modulation Spectrum in the near IR and the mid-IR region for a 2 Dimensional molecular aggregate by solving the Holstein Hamiltonian employing a multiparticle basis set. 
 
+Openmp 
+------
+
+The polaron absorption spectrum needs to be averaged over several thousand configurations to obtain absolute convergence. The code uses openmp to parallely run the disorder configurations over multiple processors on a single node or over multiple nodes. Please look for the file "cms_local_disorder" for the full code. I have also added the different subroutines individually if you want to have a look.
+
 Modeling Molecular Aggregates
 ----------------------------------------
 
@@ -37,10 +42,7 @@ We focus our attention entirely on the far to mid-IR transitions between the pol
 
 
 
-MPI  
-----
 
-The polaron absorption spectrum needs to be averaged over several thousand configurations to obtain absolute convergence. The code uses MPI to parallely run the disorder configurations over multiple processors on a single node or over multiple nodes.
 
     
 References
