@@ -19,7 +19,7 @@ module cms_common_disorder
         real*8, allocatable :: offset(:,:)
 end module
 !***************************************************************************************!
-!    Main program
+!    Main program starts here. 
 !***************************************************************************************!
 program cms_polaron()
     use exciton_common_local
@@ -62,6 +62,10 @@ program cms_polaron()
     !output the parameters (local)
     call para_out_cms()
     
+    
+!***************************************************************************************!
+!    We need to run several disorder configurations parallely. Coding with Openmp
+!***************************************************************************************!
     !configuration counter
     complete = 0
     !$OMP PARALLEL DO PRIVATE( config, cohtmp ) SHARED( cohfxn ) REDUCTION( +:ab_x, ab_y, sumoscx, sumoscy )
@@ -96,7 +100,7 @@ program cms_polaron()
                               -lattice_z+1:lattice_z-1 ) )
             cohfxn = 0.d0
         end if        
-        !allocate the temp function and initialize to zero every time!
+        !It is necessary to allocate the temp function and initialize to zero every time!
         if (.not. allocated( cohtmp ) )                 &
             allocate( cohtmp( -lattice_x+1:lattice_x-1, &
                               -lattice_y+1:lattice_y-1, &
@@ -825,9 +829,6 @@ subroutine mkdir( dir )
 end subroutine
 !***************************************************************************************!
 !    Calculate the coherence function, here it is
-!    C(r)=<Psi|sumn d_n^dagger d_(n+r)|Psi>
-!    This seems to be behaving ok, but I am not sure that it is right!!!!!!!!
-!    Check with Spano.
 !***************************************************************************************!
 subroutine cms_cohfxn( cohfxn )
     use exciton_common_local
