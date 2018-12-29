@@ -14,7 +14,7 @@ We develop a theory describing the spatial coherence of polarons (holes) in diso
 Openmp 
 ------
 
-The polaron absorption spectrum needs to be averaged over several thousand configurations to obtain absolute convergence. The code uses openmp to parallely run the disorder configurations over multiple processors on a single node or over multiple nodes. Please look for the file "cms_local_disorder" for the full code. I have also added the different subroutines individually if you want to have a look.
+The polaron absorption spectrum needs to be averaged over several thousand configurations to obtain absolute convergence. The code uses openmp to parallely run the disorder configurations over multiple processors on a single node or over multiple nodes. Please look for the file "cms_local_disorder" for the full code. I have also added the different subroutines separately if you want to have a look.
 
 Modeling Molecular Aggregates
 ----------------------------------------
